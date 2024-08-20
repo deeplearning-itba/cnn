@@ -1,8 +1,8 @@
 import numpy as np
 from matplotlib import pyplot as plt
-from keras import backend as K
+from tensorflow.keras import backend as K
 import keras
-from keras.utils import to_categorical
+from tensorflow.keras.utils import to_categorical
 from sklearn.model_selection import train_test_split
 
 def get_FASHION_MNIST_data(folder, test_split = 0.2):
