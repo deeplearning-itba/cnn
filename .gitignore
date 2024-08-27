@@ -6,3 +6,4 @@ fashion-mnist-itba-lab-ml-2018b/
 Food-5k/
 *.zip
 data/
+*.h5
